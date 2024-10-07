@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $dbname = 'mercadolibre';
-$username = 'root';
-$password = '';
+$username = 'pepe';
+$password = '12341234';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
